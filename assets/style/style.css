@@ -1,3 +1,12 @@
+.container,
+.container-fluid {
+  max-width: 1310px;
+}
+
+.header-top {
+  background-color: #f72210;
+}
+/* testing the :empty pseudoselector */
 div:empty {
   width: 33%;
   height: 30em;
