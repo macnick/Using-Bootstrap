@@ -4,7 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/style/style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="header"></div>
+    <div class="helper container-fluid"></div>
+    <div class="main container-fluid">
+      <div class="colwrap row sticky-scroll"></div>
+      <div class="page-bottom"></div>
+      <div class="subscribe"></div>
+      <div class="footer"></div>
+    </div>
+
+    <div class="container-fluid">
+      <h1>Auto Layout Columns</h1>
+      <p>
+        In Bootstrap 4, there is an easy way to create equal width columns: just
+        use the <code>.col-size</code> class on a specified number of col
+        elements. Bootstrap will recognize how many columns there are, and each
+        column will get the same width.
+      </p>
+      <p>
+        Two columns: 50% width on all screens, except for extra small (100%
+        width on screens less than <strong>576px</strong> wide)
+      </p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md bg-success">1 of 2</div>
+          <div class="col-md bg-warning">2 of 2</div>
+          <div class="col-md bg-danger">3 of 3</div>
+        </div>
+      </div>
+      <br />
+
+      <p>
+        Four columns: 25% width on all screens, except for extra small (100%
+        width on screens less than <strong>576px</strong> wide)
+      </p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm bg-success">1 of 4</div>
+          <div class="col-sm bg-warning">2 of 4</div>
+          <div class="col-sm bg-success">3 of 4</div>
+          <div class="col-sm bg-warning">4 of 4</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
