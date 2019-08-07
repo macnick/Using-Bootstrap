@@ -1,13 +1,87 @@
+div {
+  display: block;
+}
+
 .container,
 .container-fluid {
   max-width: 1310px;
 }
 
 .header-top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 2;
   background-color: #f72210;
+  height: 95px;
+  padding: 20px 10px 15px 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.header-top div {
+  width: 50%;
+}
+.header-top a,
+.header-top a:hover {
+  text-decoration: none;
+}
+
+.co-1 {
+  color: #fff;
+  margin: 0 0 0 20px;
+}
+.co-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.lk-2 {
+  color: #fff;
+  padding: 0 12px;
+  text-transform: uppercase;
+}
+.lk-3 {
+  background-color: #fff;
+  color: #f72210;
+}
+.lk-2,
+.lk-3 {
+  position: relative;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  padding: 6px 10px 6px 10px;
+}
+.fa-angle-right {
+  margin-left: 10px;
+}
+/* header-mid  */
+.header-mid {
+  transform: translate(-50%, 0);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+  padding: 10px 15px;
+}
+.brand svg {
+  width: 396px;
+  height: 60px;
+  background-color: #f72210;
+  fill: #fff;
 }
 /* testing the :empty pseudoselector */
 div:empty {
   width: 33%;
   height: 30em;
+}
+@font-face {
+  font-family: "Roboto condensed";
+  src: url("../fonts/robotocondensed-regular-webfont.woff2") format("woff2"),
+    url("../fonts/robotocondensed-regular-webfont.woff2") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto condensed";
+  src: url("../fonts/robotocondensed-bold-webfont.woff2") format("woff2"),
+    url("../fonts/robotocondensed-bold-webfont.woff2") format("woff");
+  font-weight: bold;
 }
