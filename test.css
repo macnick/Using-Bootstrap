@@ -1,0 +1,42 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  font-family: "Roboto condensed";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+header {
+  position: relative;
+  background-color: #f72210;
+  padding: 20px 0 15px 0;
+  z-index: 665;
+}
+
+header,
+nav,
+.main-footer {
+  max-width: 1310px;
+  margin: auto;
+  background-color: white;
+}
+nav {
+  position: -webkit-relative;
+  position: relative;
+  background-color: white;
+  border-bottom: 2px solid #f4f5f6;
+}
