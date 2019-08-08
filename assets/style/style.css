@@ -5,6 +5,7 @@ div {
 .container,
 .container-fluid {
   max-width: 1310px;
+  padding: 0;
 }
 
 .header-top {
@@ -59,6 +60,7 @@ div {
   top: 0;
   left: 50%;
   z-index: 3;
+  margin-top: 10px;
   padding: 10px 15px;
 }
 .brand svg {
