@@ -174,10 +174,7 @@ nav form label img {
 .fd-c {
   margin-bottom: 40px;
 }
-.col-lg-7 {
-  flex-basis: 58.33333%;
-  max-width: 58.33333%;
-}
+
 .block-title {
   font-family: "Roboto condensed";
   font-size: 1rem;
@@ -190,16 +187,26 @@ nav form label img {
 }
 .ai-c {
   background-color: #f4f5f6;
-  padding: 30px;
+  padding: 30px 30px 15px 30px;
 }
 .col {
   flex-grow: 1;
 }
+/* .flex-md {
+  padding: 0 15px;
+} */
 .subscribe .fd-c .ai-c .image {
   position: relative;
   padding-bottom: 13px;
   padding-right: 120px;
   margin-bottom: 15px;
+}
+.subscribe .col-r .image {
+  width: 180%;
+  height: 302px;
+}
+.fn {
+  flex: none;
 }
 .image .current {
   position: absolute;
@@ -210,6 +217,45 @@ nav form label img {
   font-size: 24px;
   font-weight: bold;
   line-height: 28px;
+  margin-bottom: 15px;
+}
+.subscribe p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+.btn {
+  padding: 10px 10px 10px 12px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 14px;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #f72210;
+  border-radius: 0;
+}
+.btn-main span {
+  width: 124px;
+  height: 38px;
+}
+.lk::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+    center/contain no-repeat;
+}
+.text-md-left {
+  padding: 20px;
+}
+.col-r .info {
+  border: 1px solid #ebebeb;
 }
 /* subscribe end */
 
@@ -268,7 +314,7 @@ footer .footer-links {
 }
 .row {
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 15px;
 }
 footer .footer-links .menu li {
   display: flex;
@@ -291,10 +337,7 @@ strong {
   font-weight: bolder;
 }
 /* testing the :empty pseudoselector */
-div:empty {
-  width: 33%;
-  height: 15em;
-}
+
 @font-face {
   font-family: "Roboto condensed";
   src: url("../fonts/robotocondensed-regular-webfont.woff2") format("woff2"),
