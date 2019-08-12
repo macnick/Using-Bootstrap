@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  font-family: "Roboto condensed";
+}
 div {
   display: block;
 }
@@ -150,6 +152,66 @@ nav form label img {
 /* main starts here  */
 
 /* main ends header */
+
+/* subscribe start  */
+.subscribe {
+  position: relative;
+  padding: 40px 15px 0 15px;
+}
+.subscribe::before {
+  content: "";
+  display: block;
+  background-color: #f4f5f6;
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: -14px;
+  right: -14px;
+}
+.d-flex {
+  display: flex !important;
+}
+.fd-c {
+  margin-bottom: 40px;
+}
+.col-lg-7 {
+  flex-basis: 58.33333%;
+  max-width: 58.33333%;
+}
+.block-title {
+  font-family: "Roboto condensed";
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  color: #f72210;
+  padding-bottom: 11px;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+.ai-c {
+  background-color: #f4f5f6;
+  padding: 30px;
+}
+.col {
+  flex-grow: 1;
+}
+.subscribe .fd-c .ai-c .image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 120px;
+  margin-bottom: 15px;
+}
+.image .current {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+.subscribe h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+}
+/* subscribe end */
 
 /* footer starts here  */
 footer {
