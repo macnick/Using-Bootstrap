@@ -6,6 +6,8 @@ body {
 }
 div {
   display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .container,
@@ -153,6 +155,60 @@ nav form label img {
 
 /* main ends header */
 
+/* content start  */
+.section-picks .block-title {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding: 25px 0 11px 30px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: none;
+}
+.section-picks article h4 {
+  margin: 10px 0 25px 0;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bold;
+}
+picture .lazysize {
+  display: block;
+  width: 100%;
+}
+picture {
+  position: relative;
+  overflow: hidden;
+}
+ul {
+  display: block;
+  padding-inline-start: 40px;
+}
+.subfeature2 li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+.subfeature2 li {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+.subfeature2 .image {
+  flex: none;
+  width: 135px;
+  margin-right: 15px;
+}
+.subfeature2 {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+  margin-bottom: 30px;
+}
+.subfeature2 .info {
+  flex: 1;
+}
+.flex-xs {
+  display: flex;
+}
+
+/* content end  */
 /* subscribe start  */
 .subscribe {
   position: relative;
@@ -192,9 +248,7 @@ nav form label img {
 .col {
   flex-grow: 1;
 }
-/* .flex-md {
-  padding: 0 15px;
-} */
+
 .subscribe .fd-c .ai-c .image {
   position: relative;
   padding-bottom: 13px;
@@ -224,7 +278,7 @@ nav form label img {
   margin-bottom: 25px;
 }
 a {
-  color: black;
+  color: inherit;
   text-decoration: none;
   background-color: transparent;
 }
