@@ -154,6 +154,76 @@ nav form label img {
 /* main starts here  */
 
 /* main ends header */
+/* picture galleries start  */
+.nw.picture-galleries .n-title {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 12px;
+}
+.n-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.nw.picture-galleries .n-title .icon-n {
+  position: relative;
+  margin-right: 13px;
+}
+.nw.picture-galleries .n-title .icon-n::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+.nw.picture-galleries article {
+  padding-bottom: 40px;
+}
+.nw.picture-galleries .image {
+  position: relative;
+  margin: 0 0 20px 0;
+}
+.nw.picture-galleries .count-link {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+    0 0 / contain no-repeat;
+  color: #e9212e;
+}
+.picture-galleries {
+  position: relative;
+}
+.picture-galleries h4 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+}
+.n-title .icon-n {
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+  margin-right: 10px;
+}
+.jc-c {
+  justify-content: center;
+}
+.ai-cc {
+  align-items: center;
+}
+/* picture galleries end  */
 
 /* content start  */
 .section-picks .block-title {
@@ -181,7 +251,7 @@ picture {
 }
 ul {
   display: block;
-  padding-inline-start: 40px;
+  /* padding-inline-start: 40px; */
 }
 .subfeature2 li:first-child {
   border-top: 0;
@@ -195,6 +265,10 @@ ul {
   flex: none;
   width: 135px;
   margin-right: 15px;
+}
+.subfeature2 a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 .subfeature2 {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
@@ -365,6 +439,7 @@ li {
 }
 footer .footer-links {
   padding-top: 6px;
+  margin-left: -30px;
 }
 .row {
   flex-wrap: wrap;
@@ -386,6 +461,7 @@ footer .footer-links label {
   margin-right: 15px;
   margin-top: 6px;
 }
+
 b,
 strong {
   font-weight: bolder;
