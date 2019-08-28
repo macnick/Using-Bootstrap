@@ -230,6 +230,13 @@ picture .mapping-tablet {
   width: 25%;
   padding: 0 15px;
 }
+#top article picture {
+  height: 270px;
+}
+#top {
+  margin-left: -15px;
+  margin-right: -15px;
+}
 /* in the magazing end */
 
 /* <!-- Editor Picks start --> */
@@ -581,7 +588,6 @@ footer .footer-links {
   margin-left: -30px;
 }
 .row {
-  /* flex-wrap: wrap; */
   margin: 0 15px;
 }
 footer .footer-links .menu li {
