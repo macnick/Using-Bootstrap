@@ -23,3 +23,7 @@ Used:
 ## The Website
 
 Follow the link to acess to the Website: https://macnick.github.com/Using-Bootstrap/
+
+## License
+
+The contents of this repository are covered under the [MIT License](LICENSE).
