@@ -4,7 +4,7 @@ Microverse curiculum 2nd solo project
 
 ## Responsive-Design
 
-The this project, I built a responsive website using Bootstrap. I made a clone of the https://newsweek.com/ , the news site that actually uses bootstrap.
+For this project, I built a responsive website using Bootstrap. I made a clone of the https://newsweek.com/ , the news site that actually uses bootstrap.
 
 Used:
 
