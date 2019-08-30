@@ -22,7 +22,7 @@ Used:
 
 ## The Website
 
-Follow the link to acess to the Website: https://macnick.github.com/Using-Bootstrap/
+Follow the link to acess to the Website: https://macnick.github.io/Using-Bootstrap/
 
 ## License
 
